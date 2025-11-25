@@ -61,5 +61,5 @@ def health_check():
 if __name__ == '__main__':
     print("\n🚀 Starting YouTube Productivity Backend...")
     print("Server will run on http://localhost:5000")
-    print("=" * 50)
+    print("= " * 50)
     app.run(debug=True, port=5000)
