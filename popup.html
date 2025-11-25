@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>YouTube Productivity</h1>
+  
+  <div class="section">
+    <h2>Distraction Blocker</h2>
+    <label>
+      <input type="checkbox" id="hideRecommendations">
+      Hide Recommended Videos
+    </label>
+    <label>
+      <input type="checkbox" id="hideComments">
+      Hide Comments
+    </label>
+    <label>
+      <input type="checkbox" id="hideShorts">
+      Hide Shorts
+    </label>
+  </div>
+
+  <div class="section">
+    <h2>Focus Timer</h2>
+    <button id="startTimer">Start Pomodoro (25 min)</button>
+    <button id="stopTimer">Stop Timer</button>
+    <div id="timerDisplay">Timer: Not Running</div>
+  </div>
+
+  <div class="section">
+    <h2>Video Tools</h2>
+    <button id="summarizeBtn">Summarize Video</button>
+    <button id="highlightBtn">Highlight Transcript</button>
+    <div id="summaryResult"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

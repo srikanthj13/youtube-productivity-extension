@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Node/General
+node_modules/
+.DS_Store
+
+# Logs
+*.log
