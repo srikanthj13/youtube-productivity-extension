@@ -120,3 +120,4 @@ chrome.storage.local.get(['hideRecommendations', 'hideComments', 'hideShorts'], 
   if (data.hideComments) toggleComments(true);
   if (data.hideShorts) toggleShorts(true);
 });
+
